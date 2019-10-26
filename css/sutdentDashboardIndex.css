@@ -13,12 +13,8 @@ body{
     margin-top:6%;
     margin-left: 7.5%;
     margin-right: 69px;
-   
-    background: rgba(255, 255, 255, 0.85);
-    
+    opacity: 0.9;
 }
-
-button#bar:hover{cursor:pointer}
 
 .row{
     margin-top: 20px;
