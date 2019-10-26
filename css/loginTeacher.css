@@ -5,9 +5,9 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
   /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
-  background-image: url("../images/blackboard.jpg");
+  position: fixed;
+  background-image: url("../images/chalkboard-background.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -16,7 +16,6 @@ body {
   width: 65%;
   margin-top:6%;
   margin-left: 17.5%;
-  margin-right: 69px;
   background: rgba(255, 255, 255, 0.85);
 }
 
