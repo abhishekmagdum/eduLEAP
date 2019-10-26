@@ -6,17 +6,18 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
+  background-image: url("../images/blackboard.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .jumbotron{   
-    margin-top: 69px;
-    margin-left: 69px;
-    margin-right: 69px;
-    opacity: 0.86;
-    font-weight: bold;
+  width: 65%;
+  margin-top:6%;
+  margin-left: 17.5%;
+  margin-right: 69px;
+  opacity: 0.9;
 }
 
 h1 {
@@ -26,9 +27,10 @@ h1 {
 }
 
 .form-group {
+  width: 60%;
     margin-top: 0px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 20%;
+    
 }
 
 /* Dont need this */

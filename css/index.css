@@ -3,20 +3,24 @@ body,html{
     height: 100%}
     
 body{
+    position:fixed;
     background-image: url("../images/fall_road.jpg");
     background-size: cover;
     background-position: center;}
 
 .jumbotron{   
-    margin-top: 69px;
-    margin-left: 69px;
+    width: 85%;
+    margin-top:6%;
+    margin-left: 7.5%;
     margin-right: 69px;
-    opacity: 0.86;
-    font-weight: bold;
-
-
+    opacity: 0.9;
 }
 
+.row{
+    margin-top: 20px;
+    
+    opacity: 0.90;
+}
 .btn-primary{
     left: 50%;
 }
