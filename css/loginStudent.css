@@ -17,7 +17,7 @@ body {
   margin-top:6%;
   margin-left: 17.5%;
   margin-right: 69px;
-  opacity: 0.9;
+  background: rgba(255, 255, 255, 0.85);
 }
 
 h1 {
@@ -33,9 +33,11 @@ h1 {
     
 }
 
-/* Dont need this */
-.container {
-  display: flex;
-  justify-content: center;
-  margin-top: 275px;
+label,
+input[type='image'] {
+    margin-top: 1rem;
+}
+
+input[type='image'] {
+    width: 80px;
 }
