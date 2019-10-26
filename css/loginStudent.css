@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  position:fixed;
   font-family: 'Montserrat', sans-serif;
   /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
   background-image: url("../images/space.jpg");
@@ -15,7 +16,7 @@ body {
 .jumbotron{   
   width: 65%;
   height: 20%;
-  margin-top:10%;
+  margin-top:3.5%;
   margin-left: 17.5%;
   margin-right: 69px;
   background: rgba(255, 255, 255, 0.85);
