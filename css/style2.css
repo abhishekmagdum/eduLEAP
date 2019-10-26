@@ -1,0 +1,31 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.form-group {
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* Dont need this */
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 275px;
+}
