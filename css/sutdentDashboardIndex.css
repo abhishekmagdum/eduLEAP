@@ -8,16 +8,32 @@ body{
     background-size: cover;
     background-position: center;}
 
-.jumbotron
-{   
-    
+.jumbotron{   
     width: 85%;
-    margin-top:3%;
+    margin-top:6%;
     margin-left: 7.5%;
     margin-right: 69px;
     opacity: 0.9;
 }
 
+.row{
+    margin-top: 20px;
+    
+    opacity: 0.90;
+}
+.btn-primary{
+    left: 50%;
+}
 
+.display-4{
+    text-align: center;
+}
 
+.lead{
+    text-align: center;}
 
+.button
+{display: block;}
+
+.modal-title
+{text-align: center;}
