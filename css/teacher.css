@@ -9,10 +9,6 @@
 body{
     background-size: cover;
     background-position: center;
-    background-image: url("../images/Icescape.jpg");
+    background-image: url("../images/cute.jpg");
     background-attachment: fixed;
-}
-
-.card {
-    width: fit-content;
 }
