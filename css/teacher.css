@@ -1,0 +1,14 @@
+.jumbotron {
+    width: 85%;
+    margin-top: 6%;
+    margin-left: 7.5%;
+    margin-right: 150px;
+    opacity: 0.9;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/cute.jpg");
+    background-attachment: fixed;
+}
