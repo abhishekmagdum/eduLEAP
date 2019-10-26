@@ -9,6 +9,13 @@
 body{
     background-size: cover;
     background-position: center;
-    background-image: url("../images/cute.jpg");
+    background-image: url("../images/galaxy.jpg");
     background-attachment: fixed;
+}
+
+h3
+{margin-top: 2%;
+    font-weight: bold;
+    color: white;
+
 }
