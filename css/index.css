@@ -9,16 +9,15 @@ body{
     background-position: center;}
 
 .jumbotron{   
-    width: 85%;
+    width: 70%;
     margin-top:6%;
-    margin-left: 7.5%;
+    margin-left: 15%;
     margin-right: 69px;
    
     background: rgba(255, 255, 255, 0.85);
     
 }
 
-button#bar:hover{cursor:pointer}
 
 .row{
     margin-top: 20px;
@@ -36,8 +35,10 @@ button#bar:hover{cursor:pointer}
 .lead{
     text-align: center;}
 
-.button
-{display: block;}
 
 .modal-title
 {text-align: center;}
+
+#cont_btn:hover {
+    background-color: rgb(0, 114, 207);
+  }

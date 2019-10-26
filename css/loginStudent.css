@@ -41,3 +41,7 @@ input[type='image'] {
 input[type='image'] {
     width: 80px;
 }
+#std1
+{   border-width: 10px;
+  border-color: Black;
+  border-radius: 20px;}
