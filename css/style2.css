@@ -11,6 +11,14 @@ body {
   background-position: center;
 }
 
+.jumbotron{   
+    margin-top: 69px;
+    margin-left: 69px;
+    margin-right: 69px;
+    opacity: 0.86;
+    font-weight: bold;
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -18,7 +26,7 @@ h1 {
 }
 
 .form-group {
-    margin-top: 100px;
+    margin-top: 0px;
     margin-left: 300px;
     margin-right: 300px;
 }
