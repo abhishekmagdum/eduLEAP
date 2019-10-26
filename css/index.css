@@ -4,11 +4,9 @@ body,html{
     
 body{
     position:fixed;
+    background-image: url("../images/fall_road.jpg");
     background-size: cover;
-    background-position: center;
-    background-image: url("../images/Blue-Mountains-Background.jpg");
-    background-attachment: scroll;
-}
+    background-position: center;}
 
 .jumbotron{   
     width: 70%;
