@@ -19,10 +19,8 @@ body {
   background: rgba(255, 255, 255, 0.85);
 }
 
-h1 {
-  color: white;
+h2 {
   text-align: center;
-  margin-top: 300px;
 }
 
 .form-group {
