@@ -3,7 +3,7 @@ body,html{
     height: 100%}
     
 body{
-    background-image: url(images/fall_road.jpg);
+    background-image: url("https://images2.alphacoders.com/714/thumb-1920-714692.jpg");
     background-size: cover;
     background-position: center;}
 
@@ -11,6 +11,10 @@ body{
     margin-top: 69px;
     margin-left: 69px;
     margin-right: 69px;
+    opacity: 0.86;
+    font-weight: bold;
+
+
 }
 
 .btn-primary{
