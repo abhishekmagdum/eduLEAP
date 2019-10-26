@@ -12,3 +12,24 @@
     margin-left: 69px;
     margin-right: 69px;
 }
+
+.btn-primary
+{
+    left: 50%;
+}
+
+.display-4
+{
+    text-align: center;
+}
+
+.lead
+{
+    text-align: center;
+}
+
+.button
+{display: block;}
+
+.modal-title
+{text-align: center;}
