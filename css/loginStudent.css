@@ -45,12 +45,11 @@ input[type='image'] {
     width: 80px;
 }
 #std1, #std2, #std3, #std4, #std5, #std6, #std7, #std8
-{ border-width: 10px;
-  border-color: Black;
-  border-radius: 20px;
-  width: 20%;
-margin-right: 3%;
-margin-right: 3%;}
+{ 
+  border-radius: 15%;
+  width: 22%;
+  height: 22%;
+  }
 
   .row
   {margin-left: 10%;
