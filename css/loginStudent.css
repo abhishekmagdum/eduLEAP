@@ -14,7 +14,8 @@ body {
 
 .jumbotron{   
   width: 65%;
-  margin-top:6%;
+  height: 20%;
+  margin-top:10%;
   margin-left: 17.5%;
   margin-right: 69px;
   background: rgba(255, 255, 255, 0.85);
@@ -25,7 +26,8 @@ h1 {
   text-align: center;
   margin-top: 300px;
 }
-
+.column
+{margin-top: 5%;}
 .form-group {
   width: 60%;
     margin-top: 0px;
@@ -41,7 +43,14 @@ input[type='image'] {
 input[type='image'] {
     width: 80px;
 }
-#std1
-{   border-width: 10px;
+#std1, #std2, #std3, #std4, #std5, #std6, #std7, #std8
+{ border-width: 10px;
   border-color: Black;
-  border-radius: 20px;}
+  border-radius: 20px;
+  width: 20%;
+margin-right: 3%;
+margin-right: 3%;}
+
+  .row
+  {margin-left: 10%;
+  margin-bottom: 5%;}
