@@ -28,6 +28,7 @@ h1 {
   text-align: center;
   margin-top: 300px;
 }
+
 .column
 {margin-top: 5%;}
 .form-group {
@@ -37,21 +38,43 @@ h1 {
     
 }
 
-label,
-input[type='image'] {
-    margin-top: 1rem;
+
+
+#std1, #std2, #std3, #std4, #std5, #std6, #std7, #std8,
+img {
+  max-width: 100%;
+  height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  border-width: 0px;
+  padding: 10px;
+  width: 150px;
+  margin-left: 59%; 
+  border-radius: 8px;
 }
 
-input[type='image'] {
-    width: 80px;
+
+
+/* .column
+{margin-top: 5%;}
+.form-group {
+  width: 60%;
+    margin-top: 0px;
+    margin-left: 20%;
+    
 }
+
+
+
 #std1, #std2, #std3, #std4, #std5, #std6, #std7, #std8
+
+
 { 
   border-radius: 15%;
   width: 22%;
-  height: 22%;
+  height: 50%;
   }
 
   .row
-  {margin-left: 10%;
-  margin-bottom: 5%;}
+  {margin-left: 0%;
+  margin-bottom: 5%;} */
