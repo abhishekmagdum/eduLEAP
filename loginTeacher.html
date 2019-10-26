@@ -3,40 +3,52 @@
   <head>
     <title>Teacher Login</title>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
     <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <!-- Your own stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/loginTeacher.css">
+    
   </head>
   <body>
 
-    <!-- <h1>THE BIGGEST STARTUP EVENT OF THE YEAR</h1> -->
+    <script type="text/javascript" src="js/loginTeacher.js"></script>
 
     <form>
         <div class = "jumbotron">
         <div class="form-group">
           <h2>Teacher Login</h2>
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <label for="exampleInputEmail1">Username</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
       
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
         </div>
         
         <div class = "col text-center">
-            <a href="teacher.html" class="btn btn-primary btn-lg active" style="width:30%;" id="cont_btn"role="button" aria-pressed="true">Login</a>
+            <!-- <a href="teacher.html" class="btn btn-primary btn-lg active" style="width:30%;" id="cont_btn"role="button" aria-pressed="true">Login</a> -->
+            <button onclick="validate()">Click me</button>
     </div>
     </div>
     </form>
-    
 
-
+    <script type="text/javascript">
+      function validate()
+      {
+          if(   document.getElementById("exampleInputEmail1").value == "admin"
+             && document.getElementById("exampleInputPassword1").value == "admin" )
+          {
+              alert( "validation succeeded" );
+              window.location.href = "index.html";
+          }
+          else
+          {
+              alert( "validation failed" );
+          }
+      }
+      </script>
 
   </body>
 </html>
