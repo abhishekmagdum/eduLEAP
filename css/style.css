@@ -1,0 +1,14 @@
+.btn-danger {
+    background-color: orange;
+}
+
+.btn-danger:hover {
+    background-color: black;
+}
+
+.jumbotron
+{   
+    margin-top: 69px;
+    margin-left: 69px;
+    margin-right: 69px;
+}
