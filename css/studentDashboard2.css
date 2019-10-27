@@ -5,7 +5,7 @@ body,html{
 body{
     background-size: cover;
     background-position: center;
-    background-image: url("../images/shapes.jpg");
+    background-image: url("../images/landscape.jpg");
     background-attachment: fixed;
 }
 .welcomeText{
@@ -30,6 +30,7 @@ body{
     display: flex;
     align-items: center;
 }
+
 
 h3{
     color: white;
