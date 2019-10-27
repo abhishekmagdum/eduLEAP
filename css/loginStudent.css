@@ -6,7 +6,6 @@ html {
 
 body {
   position:fixed;
-  font-family: 'Montserrat', sans-serif;
   /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg"); */
   background-image: url("../images/space.jpg");
   background-size: cover;
