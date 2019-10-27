@@ -5,7 +5,7 @@ body,html{
 body{
     background-size: cover;
     background-position: center;
-    background-image: url("../images/Blue-Mountains-Background.jpg");
+    background-image: url("../images/shapes.jpg");
     background-attachment: fixed;
 }
 .welcomeText{
