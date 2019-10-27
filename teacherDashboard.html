@@ -83,122 +83,120 @@ $(document).ready(function(){
             </form>
           </nav>
 
-<body>
+  <body>
     <div class="container">
-        <div class="table-wrapper">
-            <div class="table-title">
-                <div class="row">
-                    <div class="col-sm-8"><h2>Goals</h2></div>
-                    <div class="col-sm-4">
-                        <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add New</button>
-                    </div>
-                </div>
-            </div>
-            <table class="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>Goal</th>
-                        <th>Weight</th>
-                        <th>Completion</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Assn 1</td>
-                        <td>0.20</td>
-                        <td>3/10</td>
-                        <td>
-							              <a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i>  </a>
-                            <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                            <a class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
-                        </td>
-                    </tr>      
-                </tbody>
-            </table>
-        </div>
-    </div> 
-    
-    
-
-    <div class="container">
-            <div class="row">
-              <div class="col-md-6" >
-                <h3>Students</h3>
-                  <ul class="list-group">
-                    <ul class="list-group list-group-horizontal">
-                      <li class="list-group-item col-md-4">Name</li>
-                      <li class="list-group-item col-md-4">Evaluation</li>
-                      <li class="list-group-item col-md-4">Points</li>
-                    </ul>
-                    <ul class="list-group list-group-horizontal">
-                      <li class="list-group-item col-md-4">Toby Flenderson</li>
-                      <li class="list-group-item col-md-4">Human Resources</li>
-                      <li class="list-group-item col-md-4">0</li>
-                    </ul>
-                    <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item col-md-4">Toby Flenderson</li>
-                        <li class="list-group-item col-md-4">Human Resources</li>
-                        <li class="list-group-item col-md-4">0</li>
-                    </ul>
-                    <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item col-md-4">Toby Flenderson</li>
-                        <li class="list-group-item col-md-4">Human Resources</li>
-                        <li class="list-group-item col-md-4">0</li>
-                    </ul>
-                    <ul class="list-group list-group-horizontal">
-                      <li class="list-group-item col-md-4">Toby Flenderson</li>
-                      <li class="list-group-item col-md-4">Human Resources</li>
-                      <li class="list-group-item col-md-4">0</li>
-                    </ul>
-                    <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item col-md-4">Toby Flenderson</li>
-                        <li class="list-group-item col-md-4">Human Resources</li>
-                        <li class="list-group-item col-md-4">0</li>
-                    </ul>
-                    <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item col-md-4">Toby Flenderson</li>
-                        <li class="list-group-item col-md-4">Human Resources</li>
-                        <li class="list-group-item col-md-4">0</li>
-                    </ul>
-                  </ul>
-              </div>
-
-
-
-
-              <div class="col-md-6" id="gtag">
-                <h3>Goals</h3>
-                  <ul class="list-group">
-                    <li class="list-group-item">
-                      Extra 10 minute break
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </li>
-                    <li class="list-group-item">
-                      Pizza Party
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">25%</div>
-                      </div></li>
-                    <li class="list-group-item">
-                      Movie Time
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">60%</div>
-                      </div></li>
-                    <li class="list-group-item">
-                      Nap Time
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div></li>
-                    <li class="list-group-item">
-                      Field Trip
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                      </div></li>
-                  </ul>
-              </div>
+      <div class="table-wrapper">
+        <div class="table-title">
+          <div class="row">
+            <div class="col-sm-8"><h2>Goals</h2></div>
+            <div class="col-sm-4">
+              <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add New</button>
             </div>
           </div>
-</body>
+        </div>
+          <table class="table table-bordered" id="goal_table">
+            <thead>
+              <tr>
+                <th>Goal</th>
+                <th>Weight</th>
+                <th>Completion</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+              <tbody>
+                <tr>
+                  <td>Assn 1</td>
+                  <td>0.20</td>
+                  <td>3/10</td>
+                  <td>
+                    <a class="add" onclick="onAdd()" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i>  </a>
+                    <a class="edit" onclick="onEdit()" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                    <a class="delete" onclick="onDeleted()" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                  </td>
+                </tr>      
+              </tbody>
+          </table>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" >
+          <h3>Students</h3>
+            <ul class="list-group">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item col-md-4">Name</li>
+                <li class="list-group-item col-md-4">Evaluation</li>
+                <li class="list-group-item col-md-4">Points</li>
+              </ul>
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item col-md-4">Toby Flenderson</li>
+                <li class="list-group-item col-md-4">Human Resources</li>
+                <li class="list-group-item col-md-4">0</li>
+              </ul>
+              <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item col-md-4">Toby Flenderson</li>
+                  <li class="list-group-item col-md-4">Human Resources</li>
+                  <li class="list-group-item col-md-4">0</li>
+              </ul>
+              <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item col-md-4">Toby Flenderson</li>
+                  <li class="list-group-item col-md-4">Human Resources</li>
+                  <li class="list-group-item col-md-4">0</li>
+              </ul>
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item col-md-4">Toby Flenderson</li>
+                <li class="list-group-item col-md-4">Human Resources</li>
+                <li class="list-group-item col-md-4">0</li>
+              </ul>
+              <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item col-md-4">Toby Flenderson</li>
+                  <li class="list-group-item col-md-4">Human Resources</li>
+                  <li class="list-group-item col-md-4">0</li>
+              </ul>
+              <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item col-md-4">Toby Flenderson</li>
+                  <li class="list-group-item col-md-4">Human Resources</li>
+                  <li class="list-group-item col-md-4">0</li>
+              </ul>
+            </ul>
+        </div>
+        <div class="col-md-6" id="gtag">
+          <h3>Goals</h3>
+            <ul class="list-group">
+              <li class="list-group-item">
+                Extra 10 minute break
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+              </li>
+              <li class="list-group-item">
+                Pizza Party
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">25%</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                Movie Time
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">60%</div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                Nap Time
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                Field Trip
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/teacherDashboard.js"></script>
+  </body>
 </html>                            
