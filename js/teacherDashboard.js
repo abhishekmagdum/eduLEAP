@@ -10,10 +10,10 @@ var students = [
     ['Alexandra',0.82,0.68]
   ];
 
-var list = document.getElementById("student_col");
+function displayStudents() {
+  var list = document.getElementById("student_col");
 
-for (var student of students) {
-    console.log(student);
+  for (var student of students) {
     var ul = document.createElement('ul');
     ul.className = "list-group list-group-horizontal";
     var eval0 = document.createElement('li');
@@ -34,4 +34,22 @@ for (var student of students) {
     ul.appendChild(eval1);
     ul.appendChild(eval2);
     list.appendChild(ul);
+  }
+}
+
+goalData = []
+function onAdd() {
+  var goalTable = document.getElementById("goal_table");
+  for (i = 1; i < goalTable.rows.length; i++) {
+    console.log(goalTable.rows.item(i));
+    console.log(goalTable.rows.item(i).cells);
+  }
+}
+
+function onEdit() {
+
+}
+
+function onDelete() {
+
 }
