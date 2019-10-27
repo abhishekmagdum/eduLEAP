@@ -8,12 +8,15 @@ body{
     background-image: url("../images/Blue-Mountains-Background.jpg");
     background-attachment: fixed;
 }
+.welcomeText{
+    vertical-align: middle;
 
+}
 .jumbotron{   
-    width: 85%;
-    margin-top:6%;
-    margin-left: 7.5%;
-    margin-right: 150px;
+    width: 65%;
+    height: 10%;
+    margin-top:2%;
+    margin-left: 17.5%;
     opacity: 0.9;
 }
 
